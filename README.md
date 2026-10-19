@@ -5,6 +5,9 @@ License: MIT — see `LICENSE`.
 
 Aadaaya is an educational trading research dashboard that you can extend with **your own trading strategies and trade-management rules**. The included example uses a 20/50-day simple moving average (SMA) crossover and a fixed-percentage stop-loss advisor. The application is **not a live trading or brokerage execution system**.
 
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/bb309447-5e8b-495e-a0cb-6a8d374be6c0" />
+
+
 > **Important integration boundary:** Adding a strategy to the registry makes it available to the strategy router, but does **not** automatically connect it to the scanner UI, historical backtest engine, or trade manager. Those paths currently use the included example directly. The instructions below distinguish a working extension point from additional integration work.
 
 ## 1. Requirements and startup
