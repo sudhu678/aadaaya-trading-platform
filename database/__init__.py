@@ -1,0 +1,1 @@
+"""Public database access infrastructure."""
